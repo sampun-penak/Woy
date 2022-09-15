@@ -351,12 +351,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       text: `
 ●────━───༺༻───━────●
         *《 BOT INFO 》*
-⚘ *𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : TheBotz-Official*
-⚘ *𝐂𝐫𝐞𝐚𝐭𝐨𝐫    : Mimim-Official*
-⚘ *𝐓𝐚𝐧𝐠𝐠𝐚𝐥   : ${date}*  
-⚘ *𝐉𝐚𝐦        : ${time} WIB*
-⚘ *𝐒𝐭𝐚𝐭𝐮𝐬     : 「 ${mode} 」*
-⚘ *𝐏𝐫𝐞𝐟𝐢𝐱      : 「 MULTI PREFIX 」*
+⚘ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : *TheBotz-Official*
+⚘ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫    : *Mimim-Official*
+⚘ 𝐓𝐚𝐧𝐠𝐠𝐚𝐥   : *${date}*  
+⚘ 𝐉𝐚𝐦        : *${time} WIB*
+⚘ 𝐏𝐫𝐞𝐟𝐢𝐱      : *「 MULTI PREFIX 」*
 ●────━───༺༻───━────●
 
 >> *𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 𝐁𝐨𝐭* <<
@@ -384,10 +383,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 *${harii} Hari ${jamm} Jam ${menitt} Menit ${detikk} Detik*
 ❏ 𝐔𝐋𝐓𝐀𝐇 𝐎𝐖𝐍𝐄𝐑 :
 *${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*
-┗━━━━━━━━━━━━━㉿
-*Official Bot By @${'0'.split('@')[0]}* 
- *Powered By @${'6283816446896'.split('@')[0]}*`,
- 
+┗━━━━━━━━━━━━━㉿`, 
       footer: wm,
       title: judul,
       buttonText: "Klik Disini",
