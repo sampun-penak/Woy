@@ -386,7 +386,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 *${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*
 ┗━━━━━━━━━━━━━㉿
 *Official Bot By @${'0'.split('@')[0]}* 
- *Powered By @${'6283816446896'.split('@')[0]}*``,
+ *Powered By @${'6283816446896'.split('@')[0]}*`,
  
       footer: wm,
       title: judul,
