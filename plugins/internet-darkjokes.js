@@ -1,5 +1,5 @@
 let handler = async (m, { conn }) => {
-    conn.sendButtonImg(m.chat, global.API('lol', '/api/meme/darkjoke', {}, 'apikey'), 'Dark Jokes', wm, 'Next!', '.darkjokes', m, {
+    conn.sendButtonImg(m.chat, global.API('lol', '/api/meme/darkjoke', {}, 'apikey'), 'Dark Jokes', wm, '🍆 LANJUT 🍆', '.darkjokes', m, {
   contextInfo: { mentionedJid: [m.sender],
     externalAdReply :{
     showAdAttribution: true,

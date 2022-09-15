@@ -18,7 +18,7 @@ await conn.reply(m.chat, `Downloading media from Instagram`, m, {
      }}
   })
 let txt = `🚀 *Link:* ${await(await axios.get(`https://tinyurl.com/api-create.php?url=${args[0]}`)).data}` 
-    await conn.send2ButtonVid(m.chat, `https://api.lolhuman.xyz/api/instagram?apikey=7facd6f11077ee4daecd55d5&url=${args[0]}` , txt, wm, 'Menu', '.menu', 'Thanks', 'thcx',  m)
+    await conn.send2ButtonVid(m.chat, `https://api.lolhuman.xyz/api/instagram?apikey=7facd6f11077ee4daecd55d5&url=${args[0]}` , txt, wm, '🎀 MENU 🎀🎀', '.menu', '🥰 THANKS 🥰', 'thcx',  m)
 }
 handler.help = ['instagram'].map(v => v + ' <url>')
 handler.tags = ['downloader']

@@ -30,7 +30,7 @@ ${data.sb}
 `.trim()
 var as = `Tanggal : ${week}, ${date}\nWaktu : ${a} (WIB)`
  //conn.sendTBL(m.chat, infonyacok, as, fla + `${command}`, `Source Code Bot ✨`, data.sc, null, null, `Menu`, `${usedPrefix}menu`, null, null, null, null, m, 
-     conn.send2ButtonImg(m.chat, fla + `${command}`, infonyacok, as, `SC Bot`, `${usedPrefix}sc`, `Menu`, `${usedPrefix}menu`, m, { contextInfo: { externalAdReply :{
+     conn.send2ButtonImg(m.chat, fla + `${command}`, infonyacok, as, `⚡ Source Code ⚡`, `${usedPrefix}sourcecode`, `🎀 MENU 🎀`, `${usedPrefix}menu`, m, { contextInfo: { externalAdReply :{
         showAdAttribution: true,
         mediaUrl: data.sc,
         mediaType: 2,

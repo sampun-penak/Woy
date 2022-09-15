@@ -1,4 +1,4 @@
-﻿const timeout = 60000
+const timeout = 60000
 let handler = async (m, { conn, text, participants, usedPrefix, command }) => {
 	if (!text) throw 'Masukin nomornya bgsd!'
 	let chat = db.data.chats[m.chat]
@@ -22,10 +22,10 @@ let handler = async (m, { conn, text, participants, usedPrefix, command }) => {
         console.log(jid)
         let __user = participants.find(v => v.id === jid)
         if (__user) {
-            conn.sendButton(m.chat, `_Berhasil menambahkan @${jid.split`@`[0]}_`, wm, 'menu', usedPrefix + 'menu', m)
+            conn.sendButton(m.chat, `_Berhasil menambahkan @${jid.split`@`[0]}_`, wm, '🎀 MENU 🎀🎀', usedPrefix + 'menu', m)
         }
         if (!__user) {
-            conn.sendButton(m.chat, `_Gagal menambahkan @${jid.split`@`[0]}!_\nMungkin user tersebut baru keluar dari group ini jadi harus masuk melalui *${usedPrefix}link*`, wm, 'link', usedPrefix + 'link', m)
+            conn.sendButton(m.chat, `_Gagal menambahkan @${jid.split`@`[0]}!_\nMungkin user tersebut baru keluar dari group ini jadi harus masuk melalui *${usedPrefix}link*`, wm, '🚨 LINK 🚨', usedPrefix + 'link', m)
             /*
             let pp = await conn.profilePictureUrl(m.chat, 'image').catch(_ => false)
             let jpegThumbnail = pp ? await (await fetch(pp)).buffer() : false

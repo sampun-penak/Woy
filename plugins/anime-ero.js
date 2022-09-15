@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
-  await conn.send3TemplateButtonImg(m.chat, global.API('xteam', '/randomimage/ero', {}, 'apikey'), 'wangy wangy', wm, 'Again', `${usedPrefix + command}`, 'Menu', `${usedPrefix}menu`, 'Owner', `${usedPrefix}owner`, m)
+  await conn.send3TemplateButtonImg(m.chat, global.API('xteam', '/randomimage/ero', {}, 'apikey'), 'wangy wangy', wm, '🏒 AGAIN 🏒', `${usedPrefix + command}`, '🎀 MENU 🎀', `${usedPrefix}menu`, '🛡 OWNER 🛡', `${usedPrefix}owner`, m)
 }
 handler.help = ['ero']
 handler.tags = ['nsfw']

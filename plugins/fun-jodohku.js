@@ -5,7 +5,7 @@ function handler(m, { conn, groupMetadata }) {
     let b 
     do b = ps[Math.floor(Math.random() * ps.length)]
     while (b === a)
-    conn.sendButton(m.chat, `@${m.sender.split("@")[0]} ❤️ ${toM(b)}`, wm, 'Jodohku', '.jodohku', m, {
+    conn.sendButton(m.chat, `@${m.sender.split("@")[0]} ❤️ ${toM(b)}`, wm, '😍 JODOHKU 😍', '.jodohku', m, {
         mentions: [m.sender, b]})
 }
 handler.help = ['jodohku']

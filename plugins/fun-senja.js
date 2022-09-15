@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
   let arr = txt.split('\n')
   let cita = arr[Math.floor(Math.random() * arr.length)]
-  conn.sendButton(m.chat, cita, wm, `Senja`, `${usedPrefix + command}`, m)
+  conn.sendButton(m.chat, cita, wm, `🍂 SENJA 🍂`, `${usedPrefix + command}`, m)
 }
 handler.help = ['senja']
 handler.tags = ['quotes']

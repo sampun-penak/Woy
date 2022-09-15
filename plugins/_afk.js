@@ -5,7 +5,7 @@ handler.before = function (m) {
         this.sendButton(m.chat, `
 Kamu berhenti AFK${user.afkReason ? ' setelah ' + user.afkReason : ''}
 Selama ${this.clockString(new Date - user.afk)}
-`.trim(), wm, 'Okee', 'p', fake, { contextInfo: { externalAdReply :{ showAdAttribution: true,
+`.trim(), wm, '🐣 OKEE 🐣', 'p', fake, { contextInfo: { externalAdReply :{ showAdAttribution: true,
 }}})
         user.afk = -1
         user.afkReason = ''
@@ -21,7 +21,7 @@ Selama ${this.clockString(new Date - user.afk)}
 Jangan tag dia!
 Dia sedang AFK ${reason ? 'dengan alasan ' + reason : 'tanpa alasan'}
 Selama ${this.clockString(new Date - afkTime)}
-`.trim(), wm, 'Okee', 'p', fake, { contextInfo :{ externalAdReply :{ showAdAttribution: true,
+`.trim(), wm, '🐣 OKEE 🐣', 'p', fake, { contextInfo :{ externalAdReply :{ showAdAttribution: true,
 }}})
     }
     return true

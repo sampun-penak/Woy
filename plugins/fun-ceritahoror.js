@@ -8,7 +8,7 @@ let res = await fetch('https://api.lolhuman.xyz/api/ceritahoror?apikey=SGWN')
 await conn.sendButtonImg(m.chat, json.result.thumbnail, `Judul: ${json.result.title}
 
 Desc: ${json.result.desc}
-Cerita: ${json.result.story}`, wm, 'Again', '.ceritahoror', m)
+Cerita: ${json.result.story}`, wm, '⚡ AGAIN ⚡', '.ceritahoror', m)
  //   await conn.sendButtonImg(m.chat, json.result.thumbnail, txt, wm, `Again`, `.ceritahoror`, m)
 }
 handler.help = ['ceritahoror']

@@ -29,7 +29,7 @@ Untuk membuka grup!`.trim()
 contoh:
 ${usedPrefix + command} tutup
 ${usedPrefix + command} buka
-	`.trim(), wm, 'Buka', '#grup 1', 'Tutup', '#grup 0', m)
+	`.trim(), wm, '🔓 BUKA GRUP 🔓', '.grup 1', '🔐 TUTUP GRUP 🔐', '#grup 0', m)
 		throw false
 	} else if (isClose === 'announcement') {
 	await conn.groupSettingUpdate(m.chat, isClose)
@@ -37,16 +37,16 @@ ${usedPrefix + command} buka
 
 ketik *${usedPrefix}group buka*
 Untuk membuka grup!`.trim()
-	await conn.sendButton(m.chat, teks, wm, 'Buka', '.group buka', m, { mentions: [m.sender] })
+	await conn.sendButton(m.chat, teks, wm, '🔓 BUKA GRUP 🔓', '.group buka', m, { mentions: [m.sender] })
 	} else if (isClose === 'not_announcement') {
 	await conn.groupSettingUpdate(m.chat, isClose)
-	await conn.sendButton(m.chat, bu, wm, 'Tutup', '.group tutup', m, { mentions: [m.sender] })
+	await conn.sendButton(m.chat, bu, wm, '🔐 TUTUP GRUP 🔐', '.group tutup', m, { mentions: [m.sender] })
 	} else if (isClose === undefined) {
 	await conn.send2Button(m.chat, `
 contoh:
 ${usedPrefix + command} tutup
 ${usedPrefix + command} buka
-	`.trim(), wm, 'Buka', '#grup 1', 'Tutup', '#grup 0', m)
+	`.trim(), wm, '🔓 BUKA GRUP 🔓', '.grup 1', '🔐 TUTUP GRUP 🔐', '.grup 0', m)
 	}
 }
 

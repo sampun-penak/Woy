@@ -202,6 +202,13 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
+    const natal = new Date('December 25, 2022 23:59:59')
+    const kapanatal = new Date().getTime() 
+    const natalnya = natal - kapanatal
+    const nhari = Math.floor( natalnya / (1000 * 60 * 60 * 24));
+    const njam = Math.floor( natalnya % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
+    const nmenit= Math.floor( natalnya % (1000 * 60 * 60) / (1000 * 60))
+    const mdetek = Math.floor( natalnya % (1000 * 60) / 1000)
     let pe = '```'
     let { premium, premiumTime } = global.db.data.users[m.sender]
     let _uptime = process.uptime() * 1000
@@ -342,6 +349,19 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     ]
     const listMessage = {
       text: `
+●────━───༺༻───━────●
+        *《 BOT INFO 》*
+⚘ *𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : TheBotz-Official*
+⚘ *𝐂𝐫𝐞𝐚𝐭𝐨𝐫    : Mimim-Official*
+⚘ *𝐓𝐚𝐧𝐠𝐠𝐚𝐥   : ${date}*  
+⚘ *𝐉𝐚𝐦        : ${time} WIB*
+⚘ *𝐒𝐭𝐚𝐭𝐮𝐬     : 「 ${mode} 」*
+⚘ *𝐏𝐫𝐞𝐟𝐢𝐱      : 「 MULTI PREFIX 」*
+●────━───༺༻───━────●
+
+>> *𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 𝐁𝐨𝐭* <<
+*http://wa.me/6283816446896*
+
 ┏━━〔 ıll *INFO USER* llı 〕━㉿
 ⌬ 𝐍𝐚𝐦𝐚     : ${name}
 ⌬ 𝐋𝐢𝐦𝐢t     : ${limit}
@@ -353,9 +373,21 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ⌬ 𝐓𝐞𝐫𝐬𝐢𝐬𝐚     : ${limit} Limit
 ⌬ 𝐑𝐨𝐥𝐞       : ${role}
 ⌬ 𝐋𝐞𝐯𝐞𝐥      : *${level}*
-┗━━━━━━━━━━━━━㉿ 
-⫹⫺ TIME : ${time}
-⫹⫺ DATE : ${date}`,
+⌬ 𝐑𝐮𝐧𝐭𝐢𝐦𝐞   : *${uptime}*
+┗━━━━━━━━━━━━━㉿
+┏━━〔 ıll *INFO WAKTU* llı 〕━㉿
+❏ 𝐇𝐀𝐑𝐈 𝐍𝐀𝐓𝐀𝐋 :
+*${nhari} Hari ${njam} Jam ${nmenit} Menit ${mdetek} Detik*
+❏ 𝐓𝐀𝐇𝐔𝐍 𝐁𝐀𝐑𝐔 :
+*${jhari} Hari ${jjam} Jam ${mmmenit} Menit ${ddetik} Detik*
+❏ 𝐑𝐀𝐌𝐀𝐃𝐇𝐀𝐍 :
+*${harii} Hari ${jamm} Jam ${menitt} Menit ${detikk} Detik*
+❏ 𝐔𝐋𝐓𝐀𝐇 𝐎𝐖𝐍𝐄𝐑 :
+*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*
+┗━━━━━━━━━━━━━㉿
+*Official Bot By @${'0'.split('@')[0]}* 
+ *Powered By @${'6283816446896'.split('@')[0]}*``,
+ 
       footer: wm,
       title: judul,
       buttonText: "Klik Disini",

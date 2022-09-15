@@ -26,7 +26,7 @@ let handler  = async (m, { conn, usedPrefix, command, args, text }) => {
                 hydratedButtons: [{
                   index: 0,
                    urlButton: {
-                        displayText: `🖼 Url Image`,
+                        displayText: `🖼 URL IMAGE 🖼`,
                         url: `${url}`
                     }
                 }, {

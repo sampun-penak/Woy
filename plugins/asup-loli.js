@@ -1,5 +1,5 @@
 let handler = async(m, { conn }) => {
-  await conn.sendButtonVid(m.chat, pickRandom(asupanloli), 'asupan.mp4', '', 'Next', '.asupanloli',  m)
+  await conn.sendButtonVid(m.chat, pickRandom(asupanloli), 'asupan.mp4', '', '🍆 LANJUT 🍆', '.asupanloli',  m)
 }
 handler.help = ['asupanloli']
 handler.tags = ['asupan']

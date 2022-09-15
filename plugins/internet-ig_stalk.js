@@ -3,7 +3,7 @@ const cheerio = require('cheerio')
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
   if (!args || !args[0]) throw `Gunakan format ${usedPrefix}${command} [username]
-Contoh: ${usedPrefix}${command} jokowi
+Contoh: ${usedPrefix}${command} sampun_penak
 `.trim()
   let res = await igstalk(args[0])
 conn.reply(m.chat, `_*Wait Process Searching Username*_`, m)
@@ -20,7 +20,7 @@ _*👯‍♀️Following:*_ ${json.followingM}
 _*🖼Posting:*_ ${json.postsCountM}
 _*✍️Bio:*_ ${json.bio}
 _*🧑‍💻Link User:*_ https://instagram.com/${json.username}`.trim() // tambahin sendiri json.blablabla :)
-  conn.send2ButtonImg(m.chat, json.profilePicHD, iggs, wm, `Menu`, `.m`, `Donasi`, `.donasi`, m)
+  conn.send2ButtonImg(m.chat, json.profilePicHD, iggs, wm, `🎀 MENU 🎀`, `.m`, `💰 DONASI 💰`, `.donasi`, m)
 }
 handler.help = ['igstalk <username>']
 handler.tags = ['stalk']

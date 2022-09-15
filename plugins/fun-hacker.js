@@ -1,6 +1,6 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
   let hekerr = pickRandom(heker)
-  conn.sendButton(m.chat, hekerr, wm, `Hacker`, `${usedPrefix + command}`, m)
+  conn.sendButton(m.chat, hekerr, wm, `☠️ HACKER ☠️`, `${usedPrefix + command}`, m)
 }
 handler.help = ['hacker']
 handler.tags = ['quotes']

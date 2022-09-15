@@ -1,12 +1,12 @@
 let { jadwalsholat } = require('@bochilteam/scraper')
 let handler = async (m, { text, usedPrefix, command }) => {
-    if (!text) throw `Use example ${usedPrefix}${command} surabaya`
+    if (!text) throw `Use example ${usedPrefix}${command} Demak`
     const res = await jadwalsholat(text)
     
     let tx = `Jadwal Sholat *${text}*
 
 ${Object.entries(res.today).map(([name, data]) => `*Sholat ${name}:* ${data}`).join('\n').trim()}`
-    conn.sendButtonDoc(m.chat, tx, wm, 'Menu', `${usedPrefix}menu`, m, { contextInfo: {
+    conn.sendButtonDoc(m.chat, tx, wm, '🎀 MENU 🎀', `${usedPrefix}menu`, m, { contextInfo: {
 externalAdReply :{
     showAdAttribution: true,
     }}

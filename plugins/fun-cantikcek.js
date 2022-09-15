@@ -17,7 +17,7 @@ let cantikk = [
 'Cantik Level : 4%\n\nINI MUKA ATAU SAMPAH?!',
 'Cantik Level : 7%\n\nSerius ya,, Lu ampir mirip kayak Monyet!',
 'Cantik Level : 12%\n\nMakin lama liat muka lo gw bisa muntah!',
-'Cantik Level : 22%\n\nMungkin karna lo sering liat berbuat maksiat😂',
+'Cantik Level : 22%\n\nMungkin karna lo sering liat berbuat maksiat',
 'Cantik Level : 27%\n\nKeknya bakal susah dapet jodoh lu,, berdoa aja',
 'Cantik Level : 35%\n\nYang sabar ya ayang',
 'Cantik Level : 41%\n\nSemoga diberkati mendapat jodoh',
@@ -33,5 +33,5 @@ let cantikk = [
 'Cantik Level : 83%\n\nDijamin cowok gak akan kecewa neng',
 'Cantik Level : 89%\n\ncowok2 pasti auto salfok klo ngeliat lo!',
 'Cantik Level : 94%\n\nAARRGGHHH!!!',
-'Cantik Level : 100%\n\nLU EMANG CEWEK TERCANTIK YANG PERNAH GW LIAT, GAS CHAT OWNER GUA\nwa.me/6285346545126?text=halo\nPASTI DIA LANGSUNG BAPER WKWK',
+'Cantik Level : 100%\n\nLU EMANG CEWEK TERCANTIK YANG PERNAH GW LIAT, GAS CHAT OWNER GUA\nwa.me/6283816446896?text=halo\nPASTI DIA LANGSUNG BAPER WKWK',
 ]

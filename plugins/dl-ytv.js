@@ -11,7 +11,7 @@ let handler = async(m, { conn, args, isPrems, isOwner }) => {
     let _thumb = {}
     try { _thumb = { thumbnail: await (await fetch(thumb)).buffer() } } catch (e) {}
     m.reply(data.wait)
-    if (!isLimit) await conn.sendButtonVid(m.chat, dl_link, `*Title:* ${title}\n*Filesize:* ${filesizeF}`.trim(), wm, 'Audio', `.yta ${args}`, m, {
+    if (!isLimit) await conn.sendButtonVid(m.chat, dl_link, `*Title:* ${title}\n*Filesize:* ${filesizeF}`.trim(), wm, '🎵 AUDIO 🎵', `.yta ${args}`, m, {
   contextInfo: { mentionedJid: [m.sender],
     externalAdReply :{
     showAdAttribution: true,

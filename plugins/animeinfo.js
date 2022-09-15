@@ -6,12 +6,12 @@ let handler = async(m, { conn, command, text }) => {
   let json = await res.json()
   let { title, synopsis, episodes, url, rated, score, image_url } = json.results[0]
   let ingfonya = `✨️ *Title:* ${title}
-🎆︄1�7 *Episodes:* ${episodes}
-💌︄1�7 *Rating:* ${rated}
+🎆︄1�7 *Episodes:* ${episodes}
+💌︄1�7 *Rating:* ${rated}
 ❤️ *Score:* ${score}
-💚︄1�7 *Synopsis:* ${synopsis}
+💚︄1�7 *Synopsis:* ${synopsis}
 `.trim()
-conn.send3TemplateButtonImg(m.chat, image_url, ingfonya, wm, `🌐 Url Anime Info ${text}`, `${url}`, m)
+conn.send3TemplateButtonImg(m.chat, image_url, ingfonya, wm, `🌐 URL ANIME INFO 🌐 ${text}`, `${url}`, m)
 } 
 handler.help = ['animeinfo <query>']
 handler.tags = ['anime']

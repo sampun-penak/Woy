@@ -1,6 +1,6 @@
 let handler = async(m, { conn, command }) => {
 let fakta = pickRandom(faktaa)
- conn.sendButtonImg(m.chat, fla + `${command}`, fakta, wm, 'Fakta', '.fakta', m)
+ conn.sendButtonImg(m.chat, fla + `${command}`, fakta, wm, '😱 FAKTA 😱', '.fakta', m)
 }
 
 handler.help = ['fakta']

@@ -1,6 +1,6 @@
 let handler = async(m, { conn, command }) => {
 let bacott = pickRandom(bacot)
-    conn.sendButtonLoc(m.chat, col, bacott, wm, `Bacot`, `.bacot`, m) 
+    conn.sendButtonLoc(m.chat, col, bacott, wm, `🤬 BACOT 🤬`, `.bacot`, m) 
 }
 
 handler.help = ['bacot']

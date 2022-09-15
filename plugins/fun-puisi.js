@@ -1,6 +1,6 @@
 let handler = async(m) => {
 let puisii = pickRandom(puisi)
-    conn.sendButtonLoc(m.chat, await conn.resize(fla + 'puisi', 280, 210), puisii, wm, 'Puisi', '.puisi', m)
+    conn.sendButtonLoc(m.chat, await conn.resize(fla + 'puisi', 280, 210), puisii, wm, '😇 PUISI 😇', '.puisi', m)
 }
 handler.help = ['puisi']
 handler.tags = ['quotes']

@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, usedPrefix, args, participants }) => {
   var delay = time => new Promise(res => setTimeout(res, time))
  
   var name = m.sender
-  var fkonn = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '6285346545126@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${await conn.getName(name)}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
+  var fkonn = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: '6283816446896@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${await conn.getName(name)}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
   var [_, code] = text.match(linkRegex) || []
   if (!args[0]) throw `Link Grup nya mana?` 
   if (!code) throw `Link tidak valid!`
@@ -40,7 +40,7 @@ Thanks dah invite Gua *${m.name}*`, fkonn, {
      let mes = `Hello Everyone👋🏻
 *${conn.user.name}* adalah salah satu Bot WhatsApp Multi-Device yang di bangun dengan Node.js, *${conn.user.name}* Baru aja di invite oleh *${m.name}*
 Untuk menggunakan *${conn.user.name}* silahkan ketik
-#menu
+.menu
 @${conn.user.jid.split('@')[0]} akan keluar secara otomatis setelah *${msToDate(global.db.data.chats[res].expired - now)}*`
   await conn.send2Button(res, mes, wm, `Owner`, `.owner`, `Menu`, `${usedPrefix}menu`, fkonn, {
         mentions: d
