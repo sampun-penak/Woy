@@ -67,8 +67,8 @@ Room ID: ${room.id}
         let users = global.db.data.users
         if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== m.chat)
             room[room.game._currentTurn ^ isSurrender ? 'x' : 'o'] = m.chat
-        if (room.x !== room.o) await this.sendButton(room.x, str, wm, isWin ? 'TicTacToe' : isTie ? 'TicTacToe' : 'Nyerah', isWin ? '.ttt' : isTie ? '.ttt' : 'nyerah', m)
-        await this.sendButton(room.o, str, wm, isWin ? 'TicTacToe' : isTie ? 'TicTacToe' : 'Nyerah', isWin ? '.ttt' : isTie ? '.ttt' : 'nyerah', m)
+        if (room.x !== room.o) await this.sendButton(room.x, str, wm, isWin ? '🏷 TICTACTOE 🏷' : isTie ? '🏷 TICTACTOE 🏷' : '🗿 NYERAH 🗿', isWin ? '.ttt' : isTie ? '.ttt' : 'nyerah', m)
+        await this.sendButton(room.o, str, wm, isWin ? '🏷 TICTACTOE 🏷' : isTie ? '🏷 TICTACTOE 🏷' : '🗿 NYERAH 🗿', isWin ? '.ttt' : isTie ? '.ttt' : 'nyerah', m)
         if (isTie || isWin) {
             users[room.game.playerX].exp += playScore
             users[room.game.playerO].exp += playScore

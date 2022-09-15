@@ -14,9 +14,9 @@ handler.before = function (m, { isOwner, isBotAdmin }) {
         this.send2Button(m.chat, `*Badword terdeteksi!*
 Warning: ${user.warning} / 5
 Jika warning mencapai 5 kamu akan dibanned
-ketik *#on antibadword* untuk menyalakan antibadword
-ketik *#astagfirullah* atau *#maaf* untuk mengurangi warning
-“Barang siapa yang beriman kepada Allah dan Hari Akhir maka hendaklah dia berkata baik atau diam” (HR. al-Bukhari dan Muslim).`, wm, 'Matikan Antibadword', '.0 antibadword', 'Astaghfirullah', '.maaf', m)
+ketik *.on antibadword* untuk menyalakan antibadword
+ketik *.astagfirullah* atau *.maaf* untuk mengurangi warning
+“Barang siapa yang beriman kepada Allah dan Hari Akhir maka hendaklah dia berkata baik atau diam” (HR. al-Bukhari dan Muslim).`, wm, '✒️ MATIKAN ANTIBADWORD ✒️', '.off antibadword', '🙏 ASTAGHFIRULLAH 🙏', '.maaf', m)
         if (user.warning >= 5) {
             user.banned = true
             if (m.isGroup) {

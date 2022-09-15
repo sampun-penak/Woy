@@ -1,7 +1,7 @@
 const moment = require('moment-timezone')
 let handler = m => m
 handler.all = async function (m) {
-	let pp = 'https://telegra.ph/file/5ecadedfb003151914629.jpg'
+	let pp = 'https://telegra.ph/file/74d983dd46e8bac065b48.jpg'
 	try {
 		pp = await this.profilePictureUrl(m.sender, 'image')
 	} catch (e) {
@@ -12,7 +12,7 @@ handler.all = async function (m) {
         const u = await conn.clockString(_uptime)
         global.run = '𝐀𝐤𝐭𝐢𝐟 𝐒𝐞𝐥𝐚𝐦𝐚' + ' ' + u
         global.ucapan = ucapan()
-        global.col = 'https://telegra.ph/file/5ecadedfb003151914629.jpg'
+        global.col = 'https://telegra.ph/file/74d983dd46e8bac065b48.jpg'
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
 		global.users = db.data.users[m.sender]
 		global.chats = db.data.chats[m.chat]
@@ -68,7 +68,7 @@ handler.all = async function (m) {
 	 { fromMe: false,
 	 participant: `0@s.whatsapp.net`, ...(m.chat  ? 
 	 { remoteJid: "status@broadcast" } : {}) },
-	 message: { "liveLocationMessage": { "caption":"by : Arull","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
+	 message: { "liveLocationMessage": { "caption":"by : Mimim","h": `${wm}`, 'jpegThumbnail': fs.readFileSync('./src/logo.jpg')}}
 	}
         
             const ftoko = {
@@ -117,7 +117,7 @@ key: {
 		"groupInviteMessage": {
 			"groupJid": "6282331033919-1625305606@g.us",
 			"inviteCode": "null",
-			"groupName": "☬𝚁𝚊𝚡𝚌𝚎𝚄1�71ￄ1�77 ༼༽𝚡 𝚎𝚟𝚒𝚕 𝐎𝔣ᶄ1�71ￄ1�77 ◄1�71ￄ1�77", 
+			"groupName": "☬Mimim Ofc ༼༽ Thebotz", 
             "caption": wm, 
             'jpegThumbnail': fs.readFileSync('./src/logo.jpg')
 		}

@@ -30,10 +30,10 @@ klik wa.me/${conn.user.jid.split`@`[0]}`, m.chat, {
       if (!room.pilih) this.send3Button(room.p, 'Silahkan pilih', `Menang +${room.poin}XP\nKalah -${room.poin_lose}XP\nBonus +${room.poin_bot}`, 'Batu🗿', 'Batu', 'Kertas📄', 'Kertas', 'Gunting✂️', 'Gunting', m)
       if (!room.pilih2) this.send3Button(room.p2, 'Silahkan pilih', `Menang +${room.poin}XP\nKalah -${room.poin_lose}XP\nBonus +${room.poin_bot}`, 'Batu🗿', 'Batu', 'Kertas📄', 'Kertas', 'Gunting✂️', 'Gunting', m)
       room.waktu_milih = setTimeout(() => {
-        if (!room.pilih && !room.pilih2) this.sendButton(m.chat, `Kedua pemain tidak niat main,\nSuit dibatalkan`, wm, 'Menu', '.menu', m)
+        if (!room.pilih && !room.pilih2) this.sendButton(m.chat, `Kedua pemain tidak niat main,\nSuit dibatalkan`, wm, '🎀 MENU 🎀', '.menu', m)
         else if (!room.pilih || !room.pilih2) {
           win = !room.pilih ? room.p2 : room.p
-          this.sendButton(m.chat, `@${(room.pilih ? room.p2 : room.p).split`@`[0]} tidak memilih suit, game berakhir`.trim(), wm, 'Menu', '.menu', m)
+          this.sendButton(m.chat, `@${(room.pilih ? room.p2 : room.p).split`@`[0]} tidak memilih suit, game berakhir`.trim(), wm, '🎀 MENU 🎀', '.menu', m)
           db.data.users[win == room.p ? room.p : room.p2].exp += room.poin
           db.data.users[win == room.p ? room.p : room.p2].exp += room.poin_bot
           db.data.users[win == room.p ? room.p2 : room.p].exp -= room.poin_lose

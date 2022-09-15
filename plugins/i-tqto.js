@@ -36,6 +36,8 @@ Rasel:
 https://github.com/raselcomel
 Arull:
 https://github.com/Warikrr
+Mimim:
+https://github.com/sampun-penak
 
 \`\`\`${conn.user.name}\`\`\`
 `,
