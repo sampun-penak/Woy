@@ -234,32 +234,109 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       {
         title: 'List Menu ' + data.namabot,
         rows: [
-          { title: 'Semua Perintah', rowId: `${_p + command} all` },
-          { title: 'Game', rowId: `${_p + command} game` },
-          { title: 'Rpg', rowId: `${_p + command} rpg` },
-          { title: 'XP', rowId: `${_p + command} xp` },
-          { title: 'Stiker', rowId: `${_p + command} stiker` },
-          { title: 'Kerang Ajaib', rowId: `${_p + command} kerangajaib` },
-          { title: 'Quotes', rowId: `${_p + command} quotes` },
-          { title: 'Grup', rowId: `${_p + command} grup` },
-          { title: 'Anime', rowId: `${_p + command} anime` },
-          { title: 'Nsfw', rowId: `${_p + command} nsfw` },
-          { title: 'Premium', rowId: `${_p + command} premium` },
-          { title: 'Internet', rowId: `${_p + command} internet` },
-          { title: 'Anonymous', rowId: `${_p + command} anonymous` },
-          { title: 'Nulis & Logo', rowId: `${_p + command} nulis` },
-          { title: 'Downloader', rowId: `${_p + command} downloader` },
-          { title: 'Tools', rowId: `${_p + command} tools` },
-          { title: 'Fun', rowId: `${_p + command} fun`},
-          { title: 'Asupan', rowId: `${_p + command} asupan`},
-          { title: 'Database', rowId: `${_p + command} database` },
-          { title: 'Vote & Absen', rowId: `${_p + command} vote` },
-          { title: "Al-Qur\'an", rowId: `${_p + command} quran` },
-          { title: 'Pengubah Suara', rowId: `${_p + command} audio` },
-          { title: 'Jadi Bot', rowId: `${_p + command} jadibot` },
-          { title: 'Info', rowId: `${_p +command} info` },
-          { title: 'Tanpa Kategori', rowId: `${_p + command} tanpakategori` },
-          { title: 'Owner', rowId: `${_p + command} owner` },
+          { title: '「 💬 」› Semua Perintah',
+          "description": "Menampilkan semua fitur dari bot",
+          rowId: `${_p + command} all` },
+          
+          { title: '「 🎮 」› Game',
+          "description": "Menampilkan fitur dari game",
+          rowId: `${_p + command} game` },
+          
+          { title: '「 🌱 」› Rpg',
+          "description": "Menampilkan fitur dari rpg ! ",
+          rowId: `${_p + command} rpg` },
+          
+          { title: '「 📈 」› Exp & Limit',
+         "description": "Menampilkan fitur dari xp",
+          rowId: `${_p + command} xp` },
+          
+          { title: '「 🎫 」› Sticker',
+          "description": "Menampilkan fitur dari sticker",
+          rowId: `${_p + command} stiker` },
+          
+          { title: '「 🐚 」› Kerang Ajaib',
+          "description": "Menampilkan fitur dari kerang ajaib",
+          rowId: `${_p + command} kerangajaib` },
+          
+          { title: '「 📑 」› Quotes',
+          "description": "Menampilkan fitur dari random teks",
+          rowId: `${_p + command} quotes` },
+          
+          { title: '「 👥 」› Group',
+          "description": "Menampilkan fitur dari group",
+          rowId: `${_p + command} grup` },
+          
+          { title: '「 ⛩️ 」› Anime',
+          "description": "Menampilkan fitur dari anime",
+          rowId: `${_p + command} anime` },
+          
+          { title: '「 🔞 」› Nsfw',
+          "description": "Menampilkan fitur dari nsfw",
+          rowId: `${_p + command} nsfw` },
+          
+          { title: '「 🌟 」› Premium',
+          "description": "Menampilkan fitur dari premium",
+          rowId: `${_p + command} premium` },
+          
+          { title: '「 💻 」› Internet',
+          "description": "Menampilkan fitur dari internet",
+          rowId: `${_p + command} internet` },
+          
+          { title: '「 🎭 」›  Anonymous Chat',
+          "description": "Menampilkan fitur dari anonymous chat",
+          rowId: `${_p + command} anonymous` },
+          
+          { title: '「 📝 」› Nulis & Logo',
+          "description": "Menampilkan fitur dari Nulis & Logo",
+          rowId: `${_p + command} nulis` },
+          
+          { title: '「 📩 」› Downloader',
+          "description": "Menampilkan fitur dari download",
+          rowId: `${_p + command} downloader` },
+          
+          { title: '「 🧰 」› Tools',
+          "description": "Menampilkan fitur dari tools",
+          rowId: `${_p + command} tools` },
+          
+          { title: '「 🧩 」› Fun',
+          "description": "Menampilkan fitur dari fun",
+          rowId: `${_p + command} fun`},
+          
+          { title: '「 🦸‍♀️ 」› Asupan',
+          "description": "Menampilkan fitur dari Asupan",
+          rowId: `${_p + command} asupan`},
+          
+          { title: '「 📂 」› Database',
+          "description": "Menampilkan fitur dari Database",
+          rowId: `${_p + command} database` },
+          
+          { title: '「 🗳️ 」› Vote & Absen',
+          "description": "Menampilkan fitur dari Vote & Absen",
+          owId: `${_p + command} vote` },
+          
+          { title: "「 ☪️ 」› Al-Qur\'an",
+          "description": "Menampilkan fitur dari Al-Qur\'an",
+          rowId: `${_p + command} quran` },
+          
+          { title: '「 🎙️ 」› Pengubah Suara',
+          "description": "Menampilkan fitur dari Pengubah Suara",
+          rowId: `${_p + command} audio` },
+          
+          { title: '「 🤖 」› Jadi Bot',
+          "description": "Menampilkan fitur dari Jadi Bot",
+          rowId: `${_p + command} jadibot` },
+          
+          { title: '「 ⚡️ 」› Info',
+          "description": "Menampilkan fitur dari Info",
+          rowId: `${_p +command} info` },
+          
+          { title: '「 ❓ 」› Tanpa Kategori',
+          "description": "Menampilkan fitur dari Tanpa Kategori",
+          rowId: `${_p + command} tanpakategori` },
+          
+          { title: '「 👩🏻‍💻 」› Owner',
+          "description": "Menampilkan fitur dari Owner",
+          owId: `${_p + command} owner` },
         ]
       }
     ]
