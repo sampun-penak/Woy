@@ -1,5 +1,5 @@
 {
-    "name": "BOT-MD",
+    "name": "THEBOTZ-OFC",
     "version": "3.5.1",
     "description": "Simple Bot WhatsApp with Baileys Multi Device",
     "depecrated": false,
@@ -28,16 +28,16 @@
         "stikerin",
         "wabot-aq"
     ],
-    "homepage": "https://github.com/sadteams/bot-md",
+    "homepage": "https://github.com/sampun-penak/Woy",
     "author": {
-        "name": "Kangsad01"
+        "name": "TheBotz"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sadteams/bot-md.git"
+        "url": "git+https://github.com/sampun-penak/Woy.git"
     },
     "bugs": {
-        "url": "https://github.com/sadteams/bot-md/issues"
+        "url": "https://github.com/sampun-penak/Woy/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

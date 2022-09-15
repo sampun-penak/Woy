@@ -1,25 +1,25 @@
-# ArullBotz
+#TheBotz-Official
 
 ---
 
-<a href="https://visitor-badge.glitch.me/badge?page_id=Warikrr/Rul1"><img title="Visitor" src="https://visitor-badge.glitch.me/badge?page_id=Warikrr/Rul1"></a>
-<a href="https://github.com/Warikrr/Rul1/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Warikrr/Rul1?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/Warikrr/Rul1/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Warikrr/Rul1?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/Warikrr/Rul1/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Warikrr/Rul1?label=Stars&color=yellow&style=flat-square"></a>
-<a href="https://github.com/Warikrr/Rul1/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/Warikrr/Rul1?label=Contributors&color=blue&style=flat-square"></a>
-<a href="https://github.com/Warikrr/Rul1/issues"><img title="Issues" src="https://img.shields.io/github/issues/Warikrr/Rul1?label=Issues&color=success&style=flat-square"></a>
-<a href="https://github.com/Warikrr/Rul1/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Warikrr/Rul1?label=Issues&color=red&style=flat-square"></a>
-<a href="https://github.com/Warikrr/Rul1/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/sadteams/bot-md?label=PullRequest&color=success&style=flat-square"></a>
-<a href="https://github.com/Warikrr/Rul1/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Warikrr/Rul1?label=PullRequest&color=red&style=flat-square"></a>
+<a href="https://visitor-badge.glitch.me/badge?page_id=sampun-penak/Woy"><img title="Visitor" src="https://visitor-badge.glitch.me/badge?page_id=sampun-penak/Woy"></a>
+<a href="https://github.com/sampun-penak/Woy/network/members"><img title="Forks" src="https://img.shields.io/github/forks/sampun-penak/Woy?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/sampun-penak/Woy/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/sampun-penak/Woy?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/sampun-penak/Woy/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/sampun-penak/Woy?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/sampun-penak/Woy/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/sampun-penak/Woy?label=Contributors&color=blue&style=flat-square"></a>
+<a href="https://github.com/sampun-penak/Woy/issues"><img title="Issues" src="https://img.shields.io/github/issues/sampun-penak/Woy?label=Issues&color=success&style=flat-square"></a>
+<a href="https://github.com/sampun-penak/Woy/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/sampun-penak/Woy?label=Issues&color=red&style=flat-square"></a>
+<a href="https://github.com/sampun-penak/Woy/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/sampun-penak/Woy?label=PullRequest&color=success&style=flat-square"></a>
+<a href="https://github.com/sampun-penak/Woy/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/sampun-penak/Woy?label=PullRequest&color=red&style=flat-square"></a>
 
 ## Join Group Diskusi
-[![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/LHfAOQ4sa2g40Bu5sXDWva) 
+[![BOT DISCUSSION GROUP](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EJik1WvMpxeCoCEGAFRqiV) 
 **NO BOT**
 
 
 ## UNTUK PENGGUNA HEROKU
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sadteams/bot-md)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sampun-penak/Woy)
 
 ### Instal Buildpack
 * heroku/nodejs
@@ -28,11 +28,11 @@
 
 ## UNTUK PENGGUNA RAILWAY
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fsadteams%2Fbot-md)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fsampun-penak%2FWoy)
 
 ## UNTUK PENGGUNA REPLIT
 
-[![Run on Repl.it](https://repl.it/badge/github/FadliDarmawan/haruno)](https://repl.it/github/sadteams/bot-md)
+[![Run on Repl.it](https://repl.it/badge/github/FadliDarmawan/haruno)](https://repl.it/github/sampun-penak/Woy)
 ```cmd
 Buka Console
 ------------
@@ -72,8 +72,8 @@ Choose your repo
 * Unduh & Instal ImageMagick [`Klik Disini`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/sadteams/bot-md
-cd bot-md
+git clone https://github.com/sampun-penak/Woy
+cd Woy
 npm i
 node .
 ```
@@ -89,8 +89,8 @@ $ apt update && upgrade -y
 $ pkg install ffmpeg
 $ pkg install nodejs-lts
 $ pkg install git
-$ git clone https://github.com/Warikrr/Rul1
-$ cd Rul1
+$ git clone https://github.com/sampun-penak/Woy
+$ cd Woy
 $ npm i
 $ node .
 ```
@@ -195,7 +195,7 @@ conn.logger.level = 'debug'
 [![Aiinne](https://github.com/aiinne.png?size=100)](https://github.com/aiinne)
 [![Amirul Dev](https://github.com/amiruldev20.png?size=100)](https://github.com/amiruldev20)
 [![Amelia Lisa](https://github.com/Ameliascrf.png?size=100)](https://github.com/Ameliascrf)
-[![𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷](https://github.com/Kangsad01.png?size=100)](https://github.com/Kangsad01)
+[![TheBotz](https://github.com/sampun-penak.png?size=100)](https://github.com/sampun-penak)
 [![bot xtrehse](https://github.com/xtreshebot.png?size=100)](https://github.com/xtreshebot)
 [![Madexyz](https://github.com/Madexyz.png?size=100)](https://github.com/Madexyz)
 [![sadteams](https://github.com/sadteams.png?size=100)](https://github.com/sadteams)
