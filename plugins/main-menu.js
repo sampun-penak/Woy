@@ -350,17 +350,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     const listMessage = {
       text: `
 ●────━───༺༻───━────●
-        *《 BOT INFO 》*
+           *《 BOT INFO 》*
 ⚘ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : *TheBotz-Official*
 ⚘ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫    : *Mimim-Official*
 ⚘ 𝐓𝐚𝐧𝐠𝐠𝐚𝐥   : *${date}*  
 ⚘ 𝐉𝐚𝐦        : *${time} WIB*
 ⚘ 𝐏𝐫𝐞𝐟𝐢𝐱      : *「 MULTI PREFIX 」*
 ●────━───༺༻───━────●
-
 >> *𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 𝐁𝐨𝐭* <<
 *http://wa.me/6283816446896*
-
 ┏━━〔 ıll *INFO USER* llı 〕━㉿
 ⌬ 𝐍𝐚𝐦𝐚     : ${name}
 ⌬ 𝐋𝐢𝐦𝐢t     : ${limit}
